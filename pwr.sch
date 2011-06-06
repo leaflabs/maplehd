@@ -1,11 +1,11 @@
-EESchema Schematic File Version 2  date Mon 06 Jun 2011 07:49:25 AM PDT
+EESchema Schematic File Version 2  date Mon 06 Jun 2011 08:37:45 AM PDT
 LIBS:power,/home/jessb/Projects/leafhw/hardware-lib/leaf,/home/jessb/Documents/st-microelectronics,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves
 EELAYER 43  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 3 3
 Title ""
-Date ""
+Date "6 jun 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -13,11 +13,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Kmarq B 6450 1850 "Warning Pin power_in not driven (Net 11)" F=1
+Kmarq B 5050 4300 "Warning Pin power_in not driven (Net 3)" F=1
+Kmarq B 8200 5500 "Warning Pin power_in not driven (Net 2)" F=1
+NoConn ~ 7450 4700
 $Comp
-L GND #PWR?
+L GND #PWR027
 U 1 1 4DECE206
 P 8200 5500
-F 0 "#PWR?" H 8200 5500 30  0001 C CNN
+F 0 "#PWR027" H 8200 5500 30  0001 C CNN
 F 1 "GND" H 8200 5430 30  0001 C CNN
 	1    8200 5500
 	1    0    0    -1  
@@ -167,10 +171,10 @@ Connection ~ 8200 1550
 Text GLabel 8300 1550 2    60   BiDi ~ 0
 VIN
 $Comp
-L VCC #PWR?
+L VCC #PWR028
 U 1 1 4DECE1D4
 P 5050 4300
-F 0 "#PWR?" H 5050 4400 30  0001 C CNN
+F 0 "#PWR028" H 5050 4400 30  0001 C CNN
 F 1 "VCC" H 5050 4400 30  0000 C CNN
 	1    5050 4300
 	1    0    0    -1  
@@ -212,19 +216,19 @@ F 1 "1K" V 5900 4400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR029
 U 1 1 4DECE17E
 P 6150 4900
-F 0 "#PWR?" H 6150 4900 30  0001 C CNN
+F 0 "#PWR029" H 6150 4900 30  0001 C CNN
 F 1 "GND" H 6150 4830 30  0001 C CNN
 	1    6150 4900
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR030
 U 1 1 4DECE14D
 P 3200 3800
-F 0 "#PWR?" H 3200 3800 30  0001 C CNN
+F 0 "#PWR030" H 3200 3800 30  0001 C CNN
 F 1 "GND" H 3200 3730 30  0001 C CNN
 	1    3200 3800
 	1    0    0    -1  
@@ -239,28 +243,28 @@ F 1 "1uF" H 3250 3400 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR031
 U 1 1 4DECE0DE
 P 4050 3050
-F 0 "#PWR?" H 4050 3050 30  0001 C CNN
+F 0 "#PWR031" H 4050 3050 30  0001 C CNN
 F 1 "GND" H 4050 2980 30  0001 C CNN
 	1    4050 3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_JACK External
+L PWR_JACK External1
 U 1 1 4DECE0C3
 P 3700 2850
-F 0 "External" H 3650 3050 60  0001 C CNN
+F 0 "External1" H 3650 3050 60  0001 C CNN
 F 1 "PWR_JACK" H 3650 3050 60  0001 C CNN
 	1    3700 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR032
 U 1 1 4DECE0A9
 P 3850 2400
-F 0 "#PWR?" H 3850 2400 30  0001 C CNN
+F 0 "#PWR032" H 3850 2400 30  0001 C CNN
 F 1 "GND" H 3850 2330 30  0001 C CNN
 	1    3850 2400
 	1    0    0    -1  
@@ -302,28 +306,28 @@ F 1 "10K" V 8200 5150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR033
 U 1 1 4DECDFAF
 P 7650 2600
-F 0 "#PWR?" H 7650 2600 30  0001 C CNN
+F 0 "#PWR033" H 7650 2600 30  0001 C CNN
 F 1 "GND" H 7650 2530 30  0001 C CNN
 	1    7650 2600
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_2 LIPO
+L CONN_2 LIPO1
 U 1 1 4DECDF8E
 P 7200 2400
-F 0 "LIPO" H 7200 2200 40  0000 C CNN
+F 0 "LIPO1" H 7200 2200 40  0000 C CNN
 F 1 "CONN_2" V 7250 2400 40  0000 C CNN
 	1    7200 2400
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR034
 U 1 1 4DECDF69
 P 7750 5500
-F 0 "#PWR?" H 7750 5500 30  0001 C CNN
+F 0 "#PWR034" H 7750 5500 30  0001 C CNN
 F 1 "GND" H 7750 5430 30  0001 C CNN
 	1    7750 5500
 	1    0    0    -1  
@@ -338,10 +342,10 @@ F 1 "1K" V 7750 5150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR035
 U 1 1 4DECDF3F
 P 7550 4400
-F 0 "#PWR?" H 7550 4400 30  0001 C CNN
+F 0 "#PWR035" H 7550 4400 30  0001 C CNN
 F 1 "GND" H 7550 4330 30  0001 C CNN
 	1    7550 4400
 	1    0    0    -1  
@@ -365,19 +369,19 @@ F 1 "BQ24010DRC" H 6850 4350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L +5V #PWR036
 U 1 1 4DECD2BA
 P 4650 2100
-F 0 "#PWR?" H 4650 2190 20  0001 C CNN
+F 0 "#PWR036" H 4650 2190 20  0001 C CNN
 F 1 "+5V" H 4650 2190 30  0000 C CNN
 	1    4650 2100
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR037
 U 1 1 4DECD2B9
 P 4950 3700
-F 0 "#PWR?" H 4950 3700 30  0001 C CNN
+F 0 "#PWR037" H 4950 3700 30  0001 C CNN
 F 1 "GND" H 4950 3630 30  0001 C CNN
 	1    4950 3700
 	1    0    0    -1  
@@ -392,46 +396,46 @@ F 1 "22uF" H 5000 3300 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_4X2 PWR
+L CONN_4X2 PWR1
 U 1 1 4DECD2B7
 P 4700 2600
-F 0 "PWR" H 4700 2850 50  0000 C CNN
+F 0 "PWR1" H 4700 2850 50  0000 C CNN
 F 1 "CONN_4X2" V 4700 2600 40  0000 C CNN
 	1    4700 2600
 	0    1    -1   0   
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR038
 U 1 1 4DECD2B6
 P 6450 3400
-F 0 "#PWR?" H 6450 3400 30  0001 C CNN
+F 0 "#PWR038" H 6450 3400 30  0001 C CNN
 F 1 "GND" H 6450 3330 30  0001 C CNN
 	1    6450 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR?
+L VCC #PWR039
 U 1 1 4DECD2B5
 P 6450 2800
-F 0 "#PWR?" H 6450 2900 30  0001 C CNN
+F 0 "#PWR039" H 6450 2900 30  0001 C CNN
 F 1 "VCC" H 6450 2900 30  0000 C CNN
 	1    6450 2800
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR040
 U 1 1 4DECD2B4
 P 6450 2450
-F 0 "#PWR?" H 6450 2450 30  0001 C CNN
+F 0 "#PWR040" H 6450 2450 30  0001 C CNN
 F 1 "GND" H 6450 2380 30  0001 C CNN
 	1    6450 2450
 	1    0    0    -1  
 $EndComp
 $Comp
-L VAA #PWR?
+L VAA #PWR8
 U 1 1 4DECD2B3
 P 6450 1850
-F 0 "#PWR?" H 6450 1910 30  0001 C CNN
+F 0 "#PWR8" H 6450 1910 30  0001 C CNN
 F 1 "VAA" H 6450 1960 30  0000 C CNN
 	1    6450 1850
 	1    0    0    -1  
