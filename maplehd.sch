@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 06 Jun 2011 06:51:19 AM PDT
+EESchema Schematic File Version 2  date Mon 06 Jun 2011 07:19:52 AM PDT
 LIBS:power,/home/jessb/Projects/leafhw/hardware-lib/leaf,/home/jessb/Documents/st-microelectronics,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves
 EELAYER 43  0
 EELAYER END
