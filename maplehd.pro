@@ -1,5 +1,5 @@
-update=Sat 28 May 2011 04:48:14 PM PDT
-last_client=eeschema
+update=Wed 15 Jun 2011 01:28:39 PM PDT
+last_client=cvpcb
 [general]
 version=1
 RootSch=maplehd.sch
@@ -70,3 +70,14 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
+[cvpcb]
+version=1
+NetIExt=.net
+[cvpcb/libraries]
+EquName1=devcms
+[common]
+NetDir=
+[pcbnew]
+[pcbnew/libraries]
+LibDir=
+LibName1=/home/jessb/Projects/leafhw/hardware-lib/leaf
